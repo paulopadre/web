@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="page5.css">
+        <style>
+            body {
+              background-image: url('page5.jpg');
+            }
+            </style>
+        
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Contact Us</h1>
+            </header>
+            <nav>
+                    <a href="index.html">LOGIN</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="page3.html">HOBBIES</a>
+                    <a href="page4.html">ABOUT US</a>
+                    <a href="#">CONTACT US</a>
+            </nav>
+        
+            <main>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter Your Message" required></textarea>
+                    <label for="attachment">Attach a File:</label>
+                    <input type="file" id="attachment" name="attachment">
+                    <label for="audio">Add Audio:</label>
+                    <audio id="audio" controls>
+                        <source src="naruto.mp3" type="audio/mpeg">
+                    </audio>
+                    <label for="video">Add Video:</label>
+                    <video src="video.mp4" controls autoplay loop muted>
+                    </video>
+                    <button type="submit">Send Message</button>
+                </form>
+            </main>
+        </div>
+    </body>
+    </html>

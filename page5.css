@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav, a {
+    color: black;
+    font-weight: 400;
+    margin-left: 30px;
+    text-align: center;
+}
+main {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input, textarea, select {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #ccc;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#contact-form {
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#contact-form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+	width: 100%;
+}
+
+#contact-form textarea {
+	height: 150px;
+}
+
+#contact-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+}
+#media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    #media img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    }
+    
+    #media audio, #media video {
+    max-width: 100%;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    }
+    
+    #media h2 {
+    margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+    .container {
+    padding: 10px;
+    }
+}
+header {
+	padding: 10px;
+}
+
+header h1 {
+	font-size: 24px;
+}
+
+
+main {
+	padding: 10px;
+}
+
+#login-form, #contact-form {
+	max-width: 100%;
+}
+
+#media img, #media audio, #media video {
+	max-width: 100%;
+	margin: 10px;
+}
